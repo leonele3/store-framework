@@ -5,7 +5,8 @@
     ],
     "props":
     {
-      "pagination": "show-more"
+      "pagination": "show-more",
+      "preventRouteChange":true
     }
   },
   "search-result-layout": {
