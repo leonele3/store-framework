@@ -5,8 +5,7 @@
     ],
     "props":
     {
-      "pagination": "show-more",
-      "preventRouteChange":true
+      "pagination": "show-more"
     }
   },
   "search-result-layout": {
@@ -26,6 +25,9 @@
       "search-content",
       "filter-navigator.v3",
       "search-fetch-more"
-    ]
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
   }
 }
